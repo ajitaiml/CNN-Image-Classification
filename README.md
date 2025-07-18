@@ -1,68 +1,138 @@
-# CNN-Based Image Emotion Classifier 🚀🧠
+🔥 CNN Image Classification
+A machine learning project focused on classifying images using a Convolutional Neural Network (CNN). This project includes data preprocessing, model training, and evaluation, with support for multiple emotion categories.
 
-This is a web application built using **Flask** and a **Convolutional Neural Network (CNN)** model trained with **TensorFlow/Keras**. The app allows users to **upload an image**, and the model predicts the **emotion** displayed — either **Happy** or **Sad** — based on facial features.
+📌 Overview
+This project implements a CNN-based image classification system to categorize images into different emotional states (e.g., happy, sad). It leverages Python and popular ML libraries to build and train the model, with options for CPU-only processing.
 
----
+🧠 Machine Learning Workflow
 
-## 🗂️ Project Structure
-CNN-Image-Classification/
-│
-├── app.py # Flask web application
-├── imageclassifier.h5 # Trained CNN model (Keras format)
-├── uploads/ # Folder to store uploaded images (auto-created)
-├── logs/ # Log directory (ignored in git)
-├── models/ # Optional: store training model versions
-├── pycache/ # Python cache (ignored in git)
-├── tf_env/ # Your Python virtual environment (ignored in git)
-├── .gitignore # Git ignore configuration
-├── requirements.txt # All dependencies listed for the project
-└── README.md # This documentation
+Data collection & preprocessing
+Model training using a CNN
+Model evaluation and saving
+Testing with sample images
+
+
+📈 Features Used
 
 
 
----
-
-## 💻 Features
-
-- Upload an image via a simple HTML form.
-- Classifies the image into **"Happy"** or **"Sad"**.
-- Displays prediction confidence.
-- Built using **Flask** backend and **HTML frontend**.
-- Deploy-ready for local use and platforms like **Render**, **Heroku**, etc.
-
----
-
-## ⚙️ How It Works
-
-1. **User uploads an image** through a browser.
-2. The Flask app saves it temporarily in the `uploads/` folder.
-3. The image is **preprocessed** (resized, normalized).
-4. It is passed to the **CNN model** for prediction.
-5. The result is shown directly on the web page.
-
----
-
-## 🧠 Model Details
-
-- Built using **TensorFlow** and **Keras**.
-- Image input size: `256x256`
-- Binary classification: `Happy (0)` and `Sad (1)`
-- The model is stored in `imageclassifier.h5`.
-
----
-
-## 📝 Sample Output
-
----
-
-## 📦 Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/ajitaiml/CNN-Image-Classification.git
-   cd CNN-Image-Classification
+Feature
+Description
 
 
 
+Images
+Input images for classification
 
+
+Labels
+Emotional states (happy, sad, etc.)
+
+
+Models
+Trained CNN model (imageclassifier.h5)
+
+
+
+🛠 Tech Stack
+
+
+
+Layer
+Tools & Libraries
+
+
+
+Data
+PyCache, custom datasets
+
+
+ML Model
+TensorFlow/Keras (CNN)
+
+
+Processing
+CPU-only (Getting_Started_CPU_Only.ipynb)
+
+
+Versioning
+Git & GitHub
+
+
+
+🗂 Project Structure – CNN Image Classification
+
+
+
+Path
+Description
+
+
+
+CNN-ImageClassification/
+Main project directory
+
+
+├── pycache_
+Cached Python files
+
+
+├── data/
+Directory for image datasets
+
+
+│   ├── happy/
+Images labeled as happy
+
+
+│   ├── sad/
+Images labeled as sad
+
+
+│   ├── logs/
+Training logs
+
+
+│   └── models/
+Saved model files
+
+
+│       └── imageclassifier.h5
+Trained CNN model file
+
+
+├── Test Data/
+Directory for test images
+
+
+│   ├── download(1).jpg
+Sample test image
+
+
+│   ├── image.jpg
+Sample test image
+
+
+│   └── image.png
+Sample test image
+
+
+├── .gitignore
+Git ignore file
+
+
+├── Getting_Started_CPU_Only.ipynb
+Notebook for CPU-only setup and training
+
+
+├── imageclassifier.h5
+Alternative saved model file
+
+
+├── requirements.txt
+Python dependencies for the project
+
+
+└── tf.env
+TensorFlow environment configuration
 

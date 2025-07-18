@@ -1,12 +1,12 @@
 # 🔥 CNN Image Classification
 
-A machine learning project focused on classifying images using a Convolutional Neural Network (CNN). This project includes data preprocessing, model training, and evaluation, with support for multiple emotion categories.
+A deep learning project focused on classifying images using a Convolutional Neural Network (CNN). This project leverages TensorFlow for model building and training, and OpenCV for image preprocessing, supporting multiple emotion categories.
 
 ---
 
 ## 📌 Overview
 
-This project implements a CNN-based image classification system to categorize images into different emotional states (e.g., happy, sad). It leverages Python and popular ML libraries to build and train the model, with options for CPU-only processing.
+This project implements a deep learning-based image classification system using a CNN, powered by TensorFlow and OpenCV. It categorizes images into different emotional states (e.g., happy, sad) by preprocessing images with OpenCV and training a robust model with TensorFlow, with options for CPU-only processing.
 
 ---
 
@@ -35,6 +35,7 @@ This project implements a CNN-based image classification system to categorize im
 |-------------|------------------------------------|
 | Data        | PyCache, custom datasets           |
 | ML Model    | TensorFlow/Keras (CNN)             |
+| Image Processing | OpenCV                       |
 | Processing  | CPU-only (Getting_Started_CPU_Only.ipynb) |
 | Versioning  | Git & GitHub                       |
 

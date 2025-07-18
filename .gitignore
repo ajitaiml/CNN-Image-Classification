@@ -1,0 +1,13 @@
+# Python bytecode cache
+__pycache__/
+*.py[cod]
+
+# Logs
+logs/
+*.log
+
+# Virtual environment
+tf_env/
+
+# Model files (optional – keep if you don’t want to track .h5 files)
+*.h5

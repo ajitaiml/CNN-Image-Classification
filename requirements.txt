@@ -1,0 +1,16 @@
+# Core
+tensorflow==2.10.1
+numpy==1.23.5
+pandas==1.5.3
+scikit-learn==1.2.2
+
+# Visualization
+matplotlib==3.7.1
+pillow==9.5.0
+
+# Image Processing
+opencv-python==4.7.0.72
+
+# Notebook Support
+jupyterlab==3.6.3
+

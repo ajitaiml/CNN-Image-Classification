@@ -30,15 +30,8 @@ This project implements a deep learning-based image classification system using 
 ---
 
 ## 🛠 Tech Stack
-
-| Layer       | Tools & Libraries                  |
-|-------------|------------------------------------|
-| Data        | PyCache, custom datasets           |
-| ML Model    | TensorFlow/Keras (CNN)             |
-| Image Processing | OpenCV                       |
-| Processing  | CPU-only (Getting_Started_CPU_Only.ipynb) |
-| Versioning  | Git & GitHub                       |
-
+🛠 Tech Stack
+<table> <tr> <td><img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" alt="Python" width="30"/></td> <td><strong>Python</strong></td> </tr> <tr> <td><img src="https://cdn.worldvectorlogo.com/logos/tensorflow-2.svg" alt="TensorFlow" width="30"/></td> <td><strong>TensorFlow</strong></td> </tr> <tr> <td><img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg" alt="Keras" width="30"/></td> <td><strong>Keras</strong></td> </tr> <tr> <td><img src="https://upload.wikimedia.org/wikipedia/commons/3/32/OpenCV_Logo_with_text_svg_version.svg" alt="OpenCV" width="30"/></td> <td><strong>OpenCV</strong></td> </tr> <tr> <td><img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png" alt="Jupyter" width="30"/></td> <td><strong>Jupyter Notebook</strong></td> </tr> <tr> <td><img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="Git" width="30"/></td> <td><strong>Git & GitHub</strong></td> </tr> </table>
 ---
 
 ## 🗂 Project Structure – CNN Image Classification

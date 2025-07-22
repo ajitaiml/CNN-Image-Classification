@@ -21,17 +21,43 @@ This project implements a deep learning-based image classification system using 
 
 ## 📈 Features Used
 
-| Feature     | Description                       |
-|-------------|-----------------------------------|
-| Images      | Input images for classification   |
+| Feature     | Description                        |
+|-------------|------------------------------------|
+| Images      | Input images for classification    |
 | Labels      | Emotional states (happy, sad, etc.)|
 | Models      | Trained CNN model (`imageclassifier.h5`) |
 
 ---
 
 ## 🛠 Tech Stack
-🛠 Tech Stack
-<table> <tr> <td><img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" alt="Python" width="30"/></td> <td><strong>Python</strong></td> </tr> <tr> <td><img src="https://cdn.worldvectorlogo.com/logos/tensorflow-2.svg" alt="TensorFlow" width="30"/></td> <td><strong>TensorFlow</strong></td> </tr> <tr> <td><img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg" alt="Keras" width="30"/></td> <td><strong>Keras</strong></td> </tr> <tr> <td><img src="https://upload.wikimedia.org/wikipedia/commons/3/32/OpenCV_Logo_with_text_svg_version.svg" alt="OpenCV" width="30"/></td> <td><strong>OpenCV</strong></td> </tr> <tr> <td><img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png" alt="Jupyter" width="30"/></td> <td><strong>Jupyter Notebook</strong></td> </tr> <tr> <td><img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="Git" width="30"/></td> <td><strong>Git & GitHub</strong></td> </tr> </table>
+
+<table>
+<tr>
+  <td><img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" width="30" alt="Python"/></td>
+  <td><strong>Python</strong></td>
+</tr>
+<tr>
+  <td><img src="https://cdn.worldvectorlogo.com/logos/tensorflow-2.svg" width="30" alt="TensorFlow"/></td>
+  <td><strong>TensorFlow</strong></td>
+</tr>
+<tr>
+  <td><img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg" width="30" alt="Keras"/></td>
+  <td><strong>Keras</strong></td>
+</tr>
+<tr>
+  <td><img src="https://upload.wikimedia.org/wikipedia/commons/3/32/OpenCV_Logo_with_text_svg_version.svg" width="30" alt="OpenCV"/></td>
+  <td><strong>OpenCV</strong></td>
+</tr>
+<tr>
+  <td><img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png" width="30" alt="Jupyter Notebook"/></td>
+  <td><strong>Jupyter Notebook</strong></td>
+</tr>
+<tr>
+  <td><img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" width="30" alt="Git"/></td>
+  <td><strong>Git & GitHub</strong></td>
+</tr>
+</table>
+
 ---
 
 ## 🗂 Project Structure – CNN Image Classification
